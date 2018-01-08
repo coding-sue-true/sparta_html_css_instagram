@@ -1,0 +1,161 @@
+body {
+  background-color: #eeeeee;
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+main {
+  text-align: center;
+  overflow: auto;
+  margin-top: 50px;
+}
+
+
+.left {
+  display: inline-block;
+  float: left;
+  width: 350px;
+  margin-top: 50px;
+}
+
+.right {
+  display: inline-block;
+  float: right;
+  width: 380px;
+}
+
+header {
+  padding: 20px;
+}
+
+header h3 {
+  font-family: 'Playfair Display', sans-serif;
+  width: 300px;
+  text-align: center;
+  color: #8d8d8d;
+}
+
+
+.signUpSection {
+  display: inline-block;
+  background-color: white;
+  height: 557px;
+  width: 350px;
+  padding: 14px;
+}
+
+.logInSection {
+  display: inline-block;
+  background-color: white;
+/*  border-style: 10px lightgray; */
+  height: 40px;
+  width: 350px;
+  margin-top: 20px;
+  padding: 24px;
+}
+
+.app {
+  display: inline-block;
+/*  border-style: 10px lightgray; */
+  height: 40px;
+  width: 350px;
+  margin-top: 20px;
+  padding: 24px;
+}
+
+section {
+  float: left;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  padding: 10px;
+}
+
+footer a {
+  color: darkblue;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+/* I got all of this code on this website: http://css3buttongenerator.com/ */
+
+.facebook_btn {
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 17px;
+  background: #4597d6;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  height: 35px;
+  width: 300px;
+}
+
+.signup_btn {
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 17px;
+  background: #4597d6;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  height: 35px;
+  width: 300px;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  text-decoration: none;
+}
+
+form {
+  width: 300px;
+  padding-left: 10px;
+}
+
+input {
+  width: 300px;
+  padding: 10px;
+  margin: 5px;
+  background-color: #fafafa;
+  font-size: 15px;
+  color: #8d8d8d;
+
+}
+
+i {
+  padding-right: 15px;
+}
+
+.or {
+  height: 1px;
+  border-top: 1px solid #8d8d8d;
+  text-align: center;
+  position: relative;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+span {
+  position: relative;
+  top: -.7em;
+  background: white;
+  display: inline-block;
+  padding: 0 15px 0 15px;
+}
